@@ -1,11 +1,25 @@
--------------------Description-------------------------
-This project for calculating and synchronising with video/audio edf files and for further conversion to csv file. It includes options for divided edf recordings and cases where edf recording is longer/shorter than source file(it might be video or audio file). 
-The purpose is simplification of analysing human neuroactivity and tracking it through video or audio
--------------------------------------------------------
-Files:
-edf_converter.py-Template of edf to csv converter code
-edf_processing1.py - This version for edf files longer than video/audio and with gap(2 divided files per 1 video/audio)
-edf_propcessing1_2.py - This version for edf files longer than video/audio 
-edf_processing2.py - This version for edf files shorter than video/audio and with gap(2 divided files per 1 video/audio)
---------------------------------------------------------------------------
-Recommended IDE: Spyder(Anaconda)
+# EEG Synchronizer
+
+## 📌 Описание
+**EEG Synchronizer** — это проект для расчета и синхронизации EDF файлов с видео/аудио файлами, с последующей конверсией в формат CSV. Он включает различные опции для обработки разделенных записей EDF и случаев, когда длительность EDF записи отличается от длительности исходного файла (видеофайла или аудиофайла).  
+
+Цель проекта — упростить анализ нейроактивности человека и отслеживание её через видео или аудио.
+
+## 🎯 Мотивация
+Проект **EEG Synchronizer** был создан для упрощения процесса синхронизации данных ЭЭГ (электроэнцефалограммы) с видео или аудио записями. Это позволяет исследователям и практикам эффективно анализировать нейроактивность человека в контексте различных видов мультимедийных материалов. Синхронизация помогает в улучшении точности анализа, отслеживании изменений в мозговой активности и облегчении дальнейшего анализа в рамках научных исследований и практических приложений.
+
+## ⚙️ Файлы
+- **edf_converter.py**: Шаблон кода для конвертации EDF в CSV.  
+- **edf_processing1.py**: Обработка для EDF файлов, которые длиннее видео/аудио и имеют промежутки (2 разделенных файла для одного видео/аудио).  
+- **edf_processing1_2.py**: Обработка для EDF файлов, которые длиннее видео/аудио.  
+- **edf_processing2.py**: Обработка для EDF файлов, которые короче видео/аудио и имеют промежутки (2 разделенных файла для одного видео/аудио).
+
+## 🛠 Рекомендуемая IDE
+- **Spyder** (Anaconda)  
+
+## 🚀 Установка
+1. Клонируйте репозиторий:  
+   ```bash
+   git clone https://github.com/Leifr22/eeg_synchronizer.git
+   cd eeg_synchronizer
+
